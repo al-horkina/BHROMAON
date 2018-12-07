@@ -26,3 +26,8 @@
   @include flex();
   flex-direction: column;
 }
+
+@mixin flex-end {
+  @include flex();
+  justify-content: flex-end;
+}

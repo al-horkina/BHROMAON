@@ -152,6 +152,20 @@
   font-family: "Josefin Sans", sans-serif;
 }
 
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
 .container {
   padding: 120px 118px;
   display: flex;
@@ -160,12 +174,23 @@
 .container__info {
   width: 50%;
 }
+.container__info--shadow {
+  margin-right: 30px;
+  background: rgba(35, 35, 35, 0.9);
+  padding: 30px;
+}
 .container__title {
   margin: 0;
   font-family: "Aleo", sans-serif;
   font-size: 36px;
   font-weight: 400;
   padding: 80px 0 40px;
+}
+.container__title--spain {
+  font-family: "Josefin Sans", sans-serif;
+  text-transform: uppercase;
+  padding: 8px 0;
+  font-size: 20px;
 }
 .container__text {
   margin: 0;
@@ -176,6 +201,10 @@
   font-weight: 400;
   letter-spacing: 1.6px;
   line-height: 26px;
+}
+.container__text--different {
+  font-size: 20px;
+  padding: 20px 0 14px;
 }
 .container__btn {
   padding: 21px 38px;
@@ -189,24 +218,33 @@
   display: inline-block;
   margin-top: 28px;
 }
+.container__btn--big {
+  padding: 20px 62px;
+}
 .container__btn:hover {
   background-color: #496bfe;
 }
 .container__images {
   width: 50%;
-  padding: 0 65px;
-  display: flex;
-  flex-direction: column;
+  padding-left: 153px;
 }
 .container__images img {
   width: 350px;
   height: 220px;
 }
-.container__images:first-child {
-  margin-left: 65px;
+
+.spain-left {
+  background: url("../img/Rectangle_414.jpg") center center no-repeat;
+  background-size: cover;
+  font-family: "Josefin Sans", sans-serif;
 }
-.container__images:last-child {
-  margin-right: 0;
+
+.spain-right {
+  background: url("../img/Rectangle_4141.png") center center no-repeat;
+  background-size: cover;
+  font-family: "Josefin Sans", sans-serif;
+  display: flex;
+  justify-content: flex-end;
 }
 
 /*# sourceMappingURL=main.css.map */
