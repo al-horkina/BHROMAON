@@ -16,3 +16,13 @@
   @include flex();
   justify-content: space-between;
 }
+
+@mixin justify-center {
+  @include flex();
+  justify-content: center;
+}
+
+@mixin column {
+  @include flex();
+  flex-direction: column;
+}
