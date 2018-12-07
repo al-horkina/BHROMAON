@@ -1,0 +1,38 @@
+.hero {
+  background: url("../img/hero-bg.jpg") center center no-repeat;
+  background-size: cover;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  margin: 0;
+
+  &__title {
+    margin: 0;
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2.8px;
+    padding-top: 265px;
+  }
+
+  &__text {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 6.1px;
+    padding-bottom: 48px;
+
+    &--small {
+      font-size: 14px;
+      letter-spacing: 1.8px;
+      margin: 0;
+    }
+  }
+
+  &__down {
+    padding: 10px 0 125px;
+  }
+}
+
+.icon-angle-down {
+  font-size: 15px;
+}

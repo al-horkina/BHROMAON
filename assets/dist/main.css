@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans:400,700");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css");
+* {
+  color: #ffffff;
+}
+
+@font-face {
+  font-family: "Aleo";
+  src: url("../fonts/Aleo-Regular.eot");
+  src: url("../fonts/Aleo-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Aleo-Regular.woff2") format("woff2"), url("../fonts/Aleo-Regular.woff") format("woff"), url("../fonts/Aleo-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Glyphter";
+  src: url("../fonts/Glyphter/Glyphter.eot");
+  src: url("../fonts/Glyphter/Glyphter.eot?#iefix") format("embedded-opentype"), url("../fonts/Glyphter/Glyphter.woff") format("woff"), url("../fonts/Glyphter/Glyphter.ttf") format("truetype"), url("../fonts/Glyphter/Glyphter.svg#Glyphter") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+[class*=icon-]:before {
+  display: inline-block;
+  font-family: "Glyphter";
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-angle-down:before {
+  content: "A";
+}
+
+.icon-check:before {
+  content: "B";
+}
+
+.icon-like2:before {
+  content: "C";
+}
+
+.icon-search:before {
+  content: "D";
+}
+
+.hero {
+  background: url("../img/hero-bg.jpg") center center no-repeat;
+  background-size: cover;
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+  margin: 0;
+}
+.hero__title {
+  margin: 0;
+  font-size: 48px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2.8px;
+  padding-top: 265px;
+}
+.hero__text {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 6.1px;
+  padding-bottom: 48px;
+}
+.hero__text--small {
+  font-size: 14px;
+  letter-spacing: 1.8px;
+  margin: 0;
+}
+.hero__down {
+  padding: 10px 0 125px;
+}
+
+.icon-angle-down {
+  font-size: 15px;
+}
+
+.search {
+  width: 650px;
+  height: 60px;
+  background-color: #ffffff;
+  font-size: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+  margin-bottom: 120px;
+}
+.search__bar {
+  font-size: 16px;
+  width: 500px;
+  height: 50px;
+  border: none;
+  text-align: center;
+  letter-spacing: 0.9px;
+}
+.search__btn {
+  font-size: 14px;
+  width: 150px;
+  height: 60px;
+  border: 2px solid #ffffff;
+  background-color: #5474fd;
+  color: #ffffff;
+  font-family: Aleo, sans-serif;
+  font-weight: 400;
+  line-height: 26px;
+  text-transform: uppercase;
+  letter-spacing: 1.4px;
+}
+.search__btn .icon-search {
+  font-size: 20px;
+  padding-left: 15px;
+}
+
+.info {
+  background: #5474fd;
+  padding: 27px 118px;
+  display: flex;
+  justify-content: space-between;
+}
+.info__logo {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2.4px;
+}
+.info__menu {
+  list-style: none;
+  margin: 0;
+  font-family: "Aleo", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.list-item {
+  display: inline-block;
+  padding: 0 20px;
+}
+.list-item:last-child {
+  padding-right: 0;
+}
+
+/*# sourceMappingURL=main.css.map */
