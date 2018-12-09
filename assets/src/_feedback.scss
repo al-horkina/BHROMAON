@@ -1,0 +1,8 @@
+.feedback {
+  background: url("../img/Rectangle_4142.jpg") center center no-repeat;
+  background-size: cover;
+  font-family: 'Josefin Sans', sans-serif;
+  @include flex-wrap();
+  padding-top: 112px;
+  padding-bottom: 200px;
+}

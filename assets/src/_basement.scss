@@ -1,0 +1,29 @@
+.basement {
+  background-color: #232323;
+  font-family: "Josefin Sans", sans-serif;
+  padding: 120px 0 50px;
+  @include column();
+  text-align: center;
+
+  &__title {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    letter-spacing: 3.36px;
+  }
+
+  &__text {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: 1.3px;
+    padding: 6px 0 23px;
+  }
+}
+
+.fa {
+  padding: 0 10px;
+}

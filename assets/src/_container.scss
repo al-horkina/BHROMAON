@@ -2,6 +2,13 @@
   padding: 118px 113px;
   @include flex-between();
 
+  &__box {
+    width: 665px;
+    background-color: #333333;
+    padding: 52px 58px 27px 60px;
+    box-sizing: border-box;
+  }
+
   &__info {
     width: 540px;
 
@@ -28,6 +35,25 @@
       font-size: 20px;
       letter-spacing: -0.9px;
     }
+
+    &--wrap {
+      width: 100%;
+      text-align: center;
+      padding: 0 0 94px;
+      letter-spacing: 1px;
+    }
+
+    &--thinner {
+      color: #fefefe;
+      font-family: "Josefin Sans", sans-serif;
+      font-size: 20px;
+      font-weight: 300;
+      line-height: 17px;
+      text-transform: uppercase;
+      margin: 0;
+      padding: 0;
+      letter-spacing: -0.5px;
+    }
   }
 
   &__text {
@@ -43,6 +69,24 @@
     &--different {
       font-size: 20px;
       padding: 18px 0 14px;
+    }
+
+    &--indent {
+      text-indent: 30px;
+      padding-top: 42px;
+      line-height: 26px;
+      letter-spacing: 0.2px;
+      position: relative;
+
+      &:before {
+        font-family: fontawesome;
+        content: "\f10d";
+        position: absolute;
+        top: 27px;
+        left: -27px;
+        font-size: 20px;
+        color: #5474fd;
+      }
     }
   }
 
