@@ -7,30 +7,47 @@
 
   &__title {
     margin: 0;
-    font-size: 48px;
+    font-size: 46px;
     font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: 2.8px;
-    padding-top: 265px;
+    letter-spacing: 4.9px;
+    padding-top: 271px;
   }
 
   &__text {
     margin: 0;
     font-size: 20px;
     font-weight: 400;
-    letter-spacing: 6.1px;
-    padding-bottom: 48px;
+    letter-spacing: 6.5px;
+    padding: 4px 0 48px;
 
     &--small {
-      font-size: 14px;
-      letter-spacing: 1.8px;
+      font-size: 12px;
+      letter-spacing: 2.9px;
       margin: 0;
+      text-decoration: none;
+      padding: 2px 0 153px;
+      display: block;
+      position: relative;
+      transition: top 0.3s;
+
+      &:after {
+        position: absolute;
+        font-family: 'Glyphter';
+        content: '\0041';
+        top: 22px;
+        left: 49%;
+        font-size: 14px;
+        }
+
+      &:hover:after {
+        top: 35px;
+      }
+
+
     }
   }
 
-  &__down {
-    padding: 10px 0 125px;
-  }
 }
 
 .icon-angle-down {

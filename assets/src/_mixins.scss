@@ -31,3 +31,8 @@
   @include flex();
   justify-content: flex-end;
 }
+
+@mixin flex-wrap {
+  @include flex();
+  flex-flow: row wrap;
+}

@@ -1,0 +1,43 @@
+.places {
+  padding: 104px 100px 119px;
+  @include flex-wrap();
+  background: url("../img/line.png") 49% 20% no-repeat #333333;
+
+
+
+
+  &:first-child{
+    color: #496bfe;
+  }
+
+  &__item {
+    width: 33%;
+    text-align: center;
+  }
+
+  &__title {
+    margin: 0;
+    color: #e8e8e8;
+    font-family: "Aleo", sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-top: 18px;
+  }
+}
+
+.icon {
+  font-size: 59px;
+  color: #5474fd;
+  padding: 16px 16px 8px;
+  background-color: #333333;
+  border-radius: 50%;
+
+  &-check {
+    color: #ff6363;
+  }
+
+  &-like2 {
+    color: #00a2ff;
+  }
+}
