@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Josefin+Sans:400,700");
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,700");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css");
 * {
   color: #ffffff;
@@ -196,9 +196,11 @@
   width: 540px;
 }
 .container__info--shadow {
-  margin-right: 30px;
+  margin-top: 110px;
   background: rgba(35, 35, 35, 0.9);
   padding: 30px;
+  box-sizing: border-box;
+  margin-right: 12px;
 }
 .container__title {
   margin: 0;
@@ -210,8 +212,9 @@
 .container__title--spain {
   font-family: "Josefin Sans", sans-serif;
   text-transform: uppercase;
-  padding: 8px 0;
+  padding: 10px 0 6px;
   font-size: 20px;
+  letter-spacing: -0.9px;
 }
 .container__text {
   margin: 0;
@@ -219,13 +222,13 @@
   color: #e8e8e8;
   font-family: "Josefin Sans", sans-serif;
   font-size: 14px;
-  font-weight: 400;
-  letter-spacing: 1.5px;
+  font-weight: 300;
+  letter-spacing: 1.4px;
   line-height: 26px;
 }
 .container__text--different {
   font-size: 20px;
-  padding: 20px 0 14px;
+  padding: 18px 0 14px;
 }
 .container__btn {
   padding: 21px 38px;
@@ -237,10 +240,11 @@
   letter-spacing: 1.2px;
   text-decoration: none;
   display: inline-block;
-  margin-top: 28px;
+  margin-top: 25px;
 }
 .container__btn--big {
-  padding: 20px 62px;
+  padding: 21px 63px;
+  margin: 25px 0;
 }
 .container__btn:hover {
   background-color: #496bfe;
@@ -261,7 +265,7 @@
   padding: 104px 100px 119px;
   display: flex;
   flex-flow: row wrap;
-  background: url("../img/line.png") 48% 25% no-repeat #333333;
+  background: url("../img/line.png") 49% 20% no-repeat #333333;
 }
 .places:first-child {
   color: #496bfe;
@@ -283,7 +287,7 @@
 .icon {
   font-size: 59px;
   color: #5474fd;
-  padding: 17px;
+  padding: 16px 16px 8px;
   background-color: #333333;
   border-radius: 50%;
 }
@@ -298,6 +302,7 @@
   background: url("../img/Rectangle_414.jpg") center center no-repeat;
   background-size: cover;
   font-family: "Josefin Sans", sans-serif;
+  padding-bottom: 100px;
 }
 
 .spain-right {
@@ -306,6 +311,7 @@
   font-family: "Josefin Sans", sans-serif;
   display: flex;
   justify-content: flex-end;
+  padding-bottom: 100px;
 }
 
 /*# sourceMappingURL=main.css.map */
