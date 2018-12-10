@@ -1,5 +1,5 @@
 .info {
-  background: #5474fd;
+  background: $second-blue;
   padding: 27px 113px;
   @include flex-between();
   line-height: 26px;
@@ -19,6 +19,14 @@
     font-size: 14px;
     font-weight: 400;
     text-transform: uppercase;
+  }
+
+  &__link {
+    text-decoration: none;
+    &:hover,
+    &:focus {
+      color: $red;
+    }
   }
 }
 

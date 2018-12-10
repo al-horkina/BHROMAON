@@ -1,5 +1,5 @@
 .basement {
-  background-color: #232323;
+  background-color: $bg-dark;
   font-family: "Josefin Sans", sans-serif;
   padding: 120px 0 50px;
   @include column();
@@ -26,4 +26,9 @@
 
 .fa {
   padding: 0 10px;
+
+  &:hover,
+  &:focus {
+    color: $second-blue;
+  }
 }

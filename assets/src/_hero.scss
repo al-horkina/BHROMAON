@@ -40,14 +40,12 @@
         font-size: 14px;
         }
 
-      &:hover:after {
+      &:hover:after,
+      &:focus:after {
         top: 35px;
       }
-
-
     }
   }
-
 }
 
 .icon-angle-down {

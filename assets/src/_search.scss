@@ -1,7 +1,7 @@
 .search {
   width: 650px;
   height: 60px;
-  background-color: #ffffff;
+  background-color: $white;
   font-size: 0;
   @include flex-centered();
   @include inline-flex();
@@ -22,9 +22,9 @@
     font-size: 14px;
     width: 150px;
     height: 60px;
-    border: 2px solid #ffffff;
-    background-color: #5474fd;
-    color: #ffffff;
+    border: 2px solid $white;
+    background-color: $second-blue;
+    color: $white;
     font-family: Aleo, sans-serif;
     font-weight: 400;
     line-height: 26px;
@@ -38,8 +38,9 @@
       padding: 3px 0 0 14px;
     }
 
-    &:hover {
-      background-color: #496bfe;
+    &:hover,
+    &:focus {
+      background-color: $blue;
     }
   }
 }

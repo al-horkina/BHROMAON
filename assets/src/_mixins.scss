@@ -38,3 +38,11 @@
   justify-content: flex-start;
 }
 
+@mixin column-center {
+  @include flex();
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+

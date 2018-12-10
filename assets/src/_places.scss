@@ -1,10 +1,10 @@
 .places {
   padding: 104px 100px 119px;
   @include flex-wrap();
-  background: url("../img/line.png") 49% 20% no-repeat #333333;
+  background: url("../img/line.png") 49% 20% no-repeat $bg-darkest;
 
   &:first-child{
-    color: #496bfe;
+    color: $blue;
   }
 
   &__item {
@@ -14,7 +14,7 @@
 
   &__title {
     margin: 0;
-    color: #e8e8e8;
+    color: $grey-text;
     font-family: "Aleo", sans-serif;
     font-size: 36px;
     font-weight: 400;
@@ -25,16 +25,16 @@
 
 .icon {
   font-size: 59px;
-  color: #5474fd;
+  color: $second-blue;
   padding: 16px 16px 8px;
-  background-color: #333333;
+  background-color: $bg-darkest;
   border-radius: 50%;
 
   &-check {
-    color: #ff6363;
+    color: $red;
   }
 
   &-like2 {
-    color: #00a2ff;
+    color: $super-blue;
   }
 }
