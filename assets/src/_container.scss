@@ -6,6 +6,7 @@
     width: 60%;
     background-color: $bg-darkest;
     padding: 52px 58px 27px 60px;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
   }
 
@@ -16,6 +17,7 @@
       margin-top: 110px;
       background: rgba(35, 35, 35, 0.9);
       padding: 30px;
+      -webkit-box-sizing: border-box;
       box-sizing: border-box;
       margin-right: 12px;
     }

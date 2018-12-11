@@ -29,6 +29,8 @@
       padding: 2px 0 153px;
       display: block;
       position: relative;
+      -webkit-transition: top 0.3s;
+      -o-transition: top 0.3s;
       transition: top 0.3s;
 
       &:after {
@@ -38,7 +40,7 @@
         top: 22px;
         left: 49%;
         font-size: 14px;
-        }
+      }
 
       &:hover:after,
       &:focus:after {
