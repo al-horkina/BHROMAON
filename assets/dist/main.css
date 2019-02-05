@@ -51,6 +51,7 @@
   text-align: center;
   font-family: "Josefin Sans", sans-serif;
   margin: 0;
+  padding: 265px 0 152px;
 }
 .hero__title {
   margin: 0;
@@ -58,7 +59,6 @@
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 4.9px;
-  padding-top: 271px;
 }
 .hero__text {
   margin: 0;
@@ -67,27 +67,31 @@
   letter-spacing: 6.5px;
   padding: 4px 0 48px;
 }
-.hero__text--small {
+.hero__link {
   font-size: 12px;
   letter-spacing: 2.9px;
   margin: 0;
   text-decoration: none;
-  padding: 2px 0 153px;
-  display: block;
+  padding: 2px 0 2px;
+  display: inline-block;
   position: relative;
-  -webkit-transition: top 0.3s;
-  -o-transition: top 0.3s;
-  transition: top 0.3s;
 }
-.hero__text--small:after {
+.hero__link:before {
+  display: block;
+}
+.hero__link:after {
   position: absolute;
   font-family: "Glyphter";
   content: "A";
   top: 22px;
-  left: 49%;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transition: top 0.3s;
+  -o-transition: top 0.3s;
+  transition: top 0.3s;
   font-size: 14px;
 }
-.hero__text--small:hover:after, .hero__text--small:focus:after {
+.hero__link:hover:after, .hero__link:focus:after {
   top: 35px;
 }
 
@@ -109,16 +113,12 @@
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  margin-bottom: 120px;
+  margin: 0 auto 117px;
 }
 .search__bar {
   font-size: 16px;
-  padding-left: 3px;
-  width: 497px;
-  height: 50px;
+  width: 500px;
+  height: 58px;
   border: none;
   text-align: center;
   letter-spacing: 0.9px;
@@ -151,7 +151,7 @@
 
 .info {
   background: #5474fd;
-  padding: 27px 113px;
+  padding: 27px 40px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -187,7 +187,7 @@
   padding: 0 20px;
 }
 .list-item:last-child {
-  padding-right: 10px;
+  padding-right: 6px;
 }
 
 .choose-us {
