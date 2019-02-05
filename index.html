@@ -3,9 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>Bhromaon</title>
+
     <link rel="stylesheet" href="assets/dist/normalize.css">
     <link rel="stylesheet" href="assets/dist/main.css">
     <link rel="icon" href="assets/img/fav.ico" type="image/x-icon">
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 </head>
 <body>
 
@@ -75,18 +78,28 @@
     </div>
 </section>
 
-<section class="container feedback ">
-    <h2 class="container__title container__title--wrap">What Our Tourist Say</h2>
+<!--<section class="container feedback " >
+    <h2 class="container__title container__title&#45;&#45;wrap">What Our Tourist Say</h2>
     <div class="">
         <img class="left" src="assets/img/boy.jpg" alt="">
     </div>
     <div class="container__box">
-        <h2 class="container__title container__title--thinner">Sam Sumon</h2>
-        <p class="container__text container__text--indent">But I must explain to you how all this mistaken idea of account to
+        <h2 class="container__title container__title&#45;&#45;thinner">Sam Sumon</h2>
+        <p class="container__text container__text&#45;&#45;indent">But I must explain to you how all this mistaken idea of account to
             denouncinpleasure and praising pain But I must explain to you how all this mistaken idea of account to nai
             denouncing pleasure and praising pain was account born and I account will give you a complete account of the
             system was account born and I account will give you a nai the complete account of the system</p>
     </div>
+</section>-->
+
+
+<section id="feedback"  :style="{ background: 'bgimage' }">
+    <h2 class="container__title container__title--wrap">{{title}}</h2>
+    <div class="">
+        <img class="left" :src="bgImage" alt="">
+    </div>
+    <block :titleComponent="block.titleComponent" :text="block.text"></block>
+
 </section>
 
 <footer class="basement">
@@ -101,5 +114,8 @@
     </div>
 </footer>
 
+
+
+<script src="assets/js/app.js"></script>
 </body>
 </html>
