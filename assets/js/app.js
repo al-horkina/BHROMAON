@@ -2,7 +2,7 @@ new Vue({
     el: '#feedback',
     data: {
         title: 'What Our Tourist Say',
-        bgImage: `url("../img/Rectangle_4142.jpg") center center no-repeat $bg-dark`,
+        bgImage: 'assets/img/Rectangle_4142.jpg',
         image: 'assets/img/boy.jpg',
         titleComponent: 'Sam Sumon',
         text: 'But I must explain to you how all this mistaken idea of account to\n' +

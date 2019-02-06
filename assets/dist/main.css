@@ -220,9 +220,9 @@
   justify-content: space-between;
 }
 .container__box {
-  width: 60%;
+  width: 50%;
   background-color: #333333;
-  padding: 52px 58px 27px 60px;
+  padding: 52px 58px 0 60px;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
@@ -394,7 +394,7 @@
   padding-bottom: 100px;
 }
 
-.feedback {
+#feedback {
   background-size: cover;
   font-family: "Josefin Sans", sans-serif;
   display: -webkit-box;
@@ -409,6 +409,7 @@
   justify-content: flex-start;
   padding-top: 112px;
   padding-bottom: 200px;
+  justify-content: center;
 }
 
 @media screen and (max-width: 1024px) {

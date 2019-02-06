@@ -93,12 +93,12 @@
 </section>-->
 
 
-<section id="feedback"  :style="{ background: 'bgimage' }">
+<section id="feedback"  :style="{ 'background-image': 'url(' + bgImage + ')',  }">
     <h2 class="container__title container__title--wrap">{{title}}</h2>
     <div class="">
-        <img class="left" :src="bgImage" alt="">
+        <img class="left " :src="image" alt="">
     </div>
-    <block :titleComponent="block.titleComponent" :text="block.text"></block>
+    <block :titleComponent="titleComponent" :text="text"></block>
 
 </section>
 
